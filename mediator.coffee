@@ -1,3 +1,6 @@
+# Adapted from:
+# Addy Osmani (http://addyosmani.com/largescalejavascript/)
+# HB Stone (http://arguments.callee.info/2009/05/18/javascript-design-patterns--mediator/)
 
 mediator = do ->
   
