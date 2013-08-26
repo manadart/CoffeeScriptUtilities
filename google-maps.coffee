@@ -13,7 +13,7 @@ root.maps = do ->
 
   initMap = (divId, options = defaultOptions) ->
     map = new gm.Map document.getElementById(divId), options
-    gm.event.addDomListener window, resize, resizeMap
+    gm.event.addDomListener window, 'resize', resizeMap
     renderer = new gm.DirectionsRenderer map: map
     map
   
